@@ -6,9 +6,10 @@ import {BsPinterest} from 'react-icons/bs'
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-        <a href="https://linkedin.com" target="_blank"><BsLinkedin /></a>
-        <a href="https://github.com" target="_blank"><BsGithub/></a>
-        <a href="https://pintrest.com" target="_blank"><BsPinterest/></a>
+        <a href="https://linkedin.com/in/eze-onyemaechi-046162187/" target="_blank"><BsLinkedin /></a>
+        <a href="https://github.com/iamExony/" target="_blank"><BsGithub/></a>
+        <a href="https://www.pinterest.com/onye4holiness/_created/" target="_blank"><BsPinterest/></a>
+        
     </div>
   )
 }

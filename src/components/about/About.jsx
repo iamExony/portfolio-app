@@ -41,8 +41,7 @@ const About = () => {
             </div>
 
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptatum modi corporis, unde aut maiores sint velit perspiciatis saepe laborum, eius quibusdam natus nobis aliquam animi sapiente quidem sunt laboriosam.
-              </p>
+              I am a Fullstack Developer and a Communication Engineer. It is my core passion to proffer solutions and make life better via technology. I like dabbling in various parts of web development and love to learn about new technologies, write technical articles or simply day-dream in my free time.              </p>
 
               <a href="#contact" className='btn btn-primary'>Let's Talk</a>
           </div>

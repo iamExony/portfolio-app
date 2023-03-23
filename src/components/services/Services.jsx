@@ -11,29 +11,25 @@ const Services = () => {
       <div className="container service__container">
         <article className="service">
           <div className="service__head">
-          <h3>UI/UX Design</h3>
+          <h3>Brand Design</h3>
           </div>
 
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Logo Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Social Media Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Brochure Design</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Flyer Design</p>
             </li>
           </ul>
         </article>
@@ -46,31 +42,23 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Blog</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Content Management System</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Recruitment Portal</p>
             </li>
             <li>
               <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service__list-icon' />
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+              <p>Cooperate Website</p>
             </li>
           </ul>
         </article>
-        {/*END OF Website Development */}
+        {/*END OF Website Development 
         <article className="service">
           <div className="service__head">
           <h3>Content Creation</h3>
@@ -98,7 +86,7 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </li>
           </ul>
-        </article>
+        </article>*/}
         {/*END OF Content Creation */}
       </div>
     </section>

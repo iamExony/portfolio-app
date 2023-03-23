@@ -3,54 +3,30 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio/portfolio1.png'
 import IMG2 from '../../assets/portfolio/portfolio2.png'
 import IMG3 from '../../assets/portfolio/portfolio3.png'
-import IMG4 from '../../assets/portfolio/portfolio4.png'
-import IMG5 from '../../assets/portfolio/portfolio5.png'
-import IMG6 from '../../assets/portfolio/portfolio6.png'
+
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: 'Crypto Dashboard',
-    github: 'https://github.com',
-    demo: 'https//drible.com/Alien-pixel'
+    image: IMG2,
+    title: 'Link Tree Application',
+    github: 'https://github.com/iamExony/linktree.git',
+    demo: 'https://linktree-iamexony.vercel.app/'
   },
   {
     id: 2,
-    image: IMG2,
-    title: 'Charts templates',
-    github: 'https://github.com',
-    demo: 'https//drible.com/Alien-pixel'
+    image: IMG1,
+    title: 'Todo List Application',
+    github: 'https://github.com/iamExony/Todolist-App.git',
+    demo: '#'
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Figma Dashboard UI Kit',
-    github: 'https://github.com',
-    demo: 'https//drible.com/Alien-pixel'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'Responsive Web design',
-    github: 'https://github.com',
-    demo: 'https//drible.com/Alien-pixel'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'Crypto Template Dashboard',
-    github: 'https://github.com',
-    demo: 'https//drible.com/Alien-pixel'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'Mobile  Development',
-    github: 'https://github.com',
-    demo: 'https//drible.com/Alien-pixel'
-  },
-  
+    title: 'Login Dashboard',
+    github: 'https://github.com/iamExony/login.git',
+    demo: '#'
+  }
 ]
 
 const Portfolio = () => {
@@ -63,7 +39,7 @@ const Portfolio = () => {
         {
           data.map(({id, image, title, github, demo})=>{
             return (
-              <article key={id} className="portfolio__item">
+            <article key={id} className="portfolio__item">
           <div className="portfolio__item-image">
             <img src={image} alt={title} />
           </div>

@@ -9,25 +9,25 @@ const data = [
   {
     id: 1,
     image: IMG2,
-    title: 'Link Tree Application',
-    github: 'https://github.com/iamExony/linktree.git',
-    demo: 'https://linktree-iamexony.vercel.app/'
+    title: "Disease Prediction App",
+    github: "https://github.com/iamExony/disease_webapp",
+    demo: "https://diseasewebapp-5asvrngsubrueygesc7avn.streamlit.app/",
   },
   {
     id: 2,
     image: IMG1,
-    title: 'Todo List Application',
-    github: 'https://github.com/iamExony/Todolist-App.git',
-    demo: '#'
+    title: "Color Generator Application",
+    github: "https://github.com/iamExony/List-Colors",
+    demo: "https://color-generator-iamexony.vercel.app/",
   },
   {
     id: 3,
     image: IMG3,
-    title: 'Login Dashboard',
-    github: 'https://github.com/iamExony/login.git',
-    demo: '#'
-  }
-]
+    title: "Movie Application",
+    github: "https://github.com/iamExony/hngstage_2",
+    demo: "https://hngstage-2.vercel.app/",
+  },
+];
 
 const Portfolio = () => {
   return (

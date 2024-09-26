@@ -3,26 +3,42 @@ import './portfolio.css'
 import IMG1 from '../../assets/portfolio/portfolio1.png'
 import IMG2 from '../../assets/portfolio/portfolio2.png'
 import IMG3 from '../../assets/portfolio/portfolio3.png'
+import IMG4 from '../../assets/portfolio/delve.jpg'
+import IMG5 from '../../assets/portfolio/boilerplate.jpg'
 
 
 const data = [
   {
     id: 1,
-    image: IMG2,
+    image: IMG4,
+    title: "Delve - Language Learning AI",
+    github: "https://delve.fun/",
+    demo: "https://delve.fun/",
+  },
+  {
+    id: 2,
+    image: IMG5,
+    title: "HNG Boilerplate",
+    github: "https://staging.nextjs.boilerplate.hng.tech/",
+    demo: "https://staging.nextjs.boilerplate.hng.tech/",
+  },
+  {
+    id: 3,
+    image: IMG1,
     title: "Disease Prediction App",
     github: "https://github.com/iamExony/disease_webapp",
     demo: "https://diseasewebapp-5asvrngsubrueygesc7avn.streamlit.app/",
   },
   {
-    id: 2,
-    image: IMG1,
+    id: 4,
+    image: IMG3,
     title: "Color Generator Application",
     github: "https://github.com/iamExony/List-Colors",
     demo: "https://color-generator-iamexony.vercel.app/",
   },
   {
-    id: 3,
-    image: IMG3,
+    id: 5,
+    image: IMG2,
     title: "Movie Application",
     github: "https://github.com/iamExony/hngstage_2",
     demo: "https://hngstage-2.vercel.app/",
